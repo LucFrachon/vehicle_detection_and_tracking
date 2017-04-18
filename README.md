@@ -50,9 +50,11 @@ Before starting, make sure you have execution rights on all `.py` files (see she
 **Step i:**
  - Run `./feature_extraction.py` (make sure you have execution rights on this file).
  - The feature vectors for positive and negative cases will be saved in `features.p`
+ 
 **Step ii:**
  - Run `./model_training.py`
  - The trained scaler and classifier will be saved in `scaler.p` and `classifier.p` respectively
+ 
 **Steps iii and iv:**
  - Run `./detection.py`
  - The output video clip will be saved as `project_video_result.mp4`
