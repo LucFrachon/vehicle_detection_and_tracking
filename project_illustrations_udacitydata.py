@@ -17,7 +17,7 @@ if __name__ == '__main__':
 
     indices = random.randint(0, len(cars), 4)
 
-    f, axes = plt.subplots(nrows = 4, ncols = 2, figsize = (20, 20))
+    f, axes = plt.subplots(nrows = 4, ncols = 2, figsize = (10, 20))
 
     for i in range(4):
         axes[i, 0].imshow(cars[indices[i]])
